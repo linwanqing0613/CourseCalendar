@@ -119,3 +119,7 @@ CREATE TABLE class_schedule (
     - teacherName (可選): 講師姓名
     - courseName (可選): 課表
     - scheduleDate (可選): 課表日期
+    - **範例**
+        - **查詢教師名為 "John Doe" 的課程排程**:`/search?teacherName=John%20Doe`
+        - **查詢教師名為 "John Doe" 和日期為 2024 年 11 月 6 日的排程**:`/search?teacherName=John%20Doe&scheduleDate=2024-11-06`
+        - **查詢特定日期的排程，不指定教師或課程**:`/search?scheduleDate=2024-11-06`
